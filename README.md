@@ -43,8 +43,9 @@ ffmpeg installed and added to your system's environment variables.
 🛠️ Installation
 Clone this repository:
 
-git clone https://github.com/yourusername/YouTube-Content-Downloader.git
+git clone https://github.com/Hecate1337-py/YTdown.git
 cd YouTube-Content-Downloader
+
 Install the required dependencies:
 
 pip install -r requirements.txt
@@ -65,8 +66,9 @@ Choose the content type:
 Handle Age-Restricted Content:
 
 If you have a cookie file, provide the file path to access age-restricted videos.
+
 📋 Example
-Enter the YouTube channel username (e.g., @imhecate): @ConFilm
+Enter the YouTube channel username (e.g., @imhecate): @ImHEcate
 Select content type to download:
 1. Shorts
 2. Live
@@ -74,14 +76,17 @@ Select content type to download:
 4. All (All video content)
 Enter the number (1-4) corresponding to your choice: 1
 Do you have a cookies file for age-restricted videos? (y/n): n
-Downloading content (shorts) from: https://www.youtube.com/@ConFilm
+Downloading content (shorts) from: https://www.youtube.com/@ImHecate
+
 🖥️ Requirements
 Python 3.8+
 yt-dlp v2024.10.24+
-ffmpeg installed and configured in your system's PATH
+ffmpeg installed
+
 🛡️ Troubleshooting
 ffmpeg not installed error: Ensure that ffmpeg is properly installed and its path is correctly added to your system's PATH.
 Invalid YouTube channel: Ensure that you provide the correct channel username (starting with @).
+
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
