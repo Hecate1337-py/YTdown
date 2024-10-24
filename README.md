@@ -46,22 +46,20 @@ Copy code
  
 🛠️ Installation
 Clone this repository:
-bash
+
 git clone https://github.com/Hecate1337-py/YTdown.git
 cd YTdown
+
 Install the required dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
 Ensure ffmpeg is installed and accessible via your system’s PATH or specify its location in the script.
 
 💻 Usage
 Run the Script:
+  ```bash
+  pip install yt-dlp
 
-bash
-Copy code
-python main.py
 Input Prompts:
 
 Enter the YouTube channel username (e.g., @imhecate).
