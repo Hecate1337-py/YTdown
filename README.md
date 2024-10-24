@@ -73,6 +73,7 @@ Handle Age-Restricted Content:
 If you have a cookie file, provide the file path to access age-restricted videos.
 
 📋 Example
+
 Enter the YouTube channel username (e.g., @imhecate): @ImHEcate
 Select content type to download:
 1. Shorts
@@ -84,6 +85,7 @@ Do you have a cookies file for age-restricted videos? (y/n): n
 Downloading content (shorts) from: https://www.youtube.com/@ImHecate
 
 🖥️ Requirements
+
 Python 3.8+
 yt-dlp v2024.10.24+
 ffmpeg installed
