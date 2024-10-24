@@ -32,10 +32,14 @@ The tool uses the `yt-dlp` library to extract and download videos based on the u
   ```bash
   pip install yt-dlp
 ffmpeg installed and added to your system's environment variables.
-
 📂 Directory Structure
+css
+Copy code
 📦YourProjectFolder
- ┃ 📜ffmpeg.exe
+ ┣ 📂bin
+ ┃ ┣ 📜ffmpeg.exe
+ ┃ ┣ 📜ffplay.exe
+ ┃ ┗ 📜ffprobe.exe
  ┣ 📂vid
  ┣ 📜cookies.txt
  ┣ 📜main.py
@@ -43,17 +47,22 @@ ffmpeg installed and added to your system's environment variables.
 🛠️ Installation
 Clone this repository:
 
+bash
+Copy code
 git clone https://github.com/Hecate1337-py/YTdown.git
-cd YouTube-Content-Downloader
-
+cd YTdown
 Install the required dependencies:
 
+bash
+Copy code
 pip install -r requirements.txt
 Ensure ffmpeg is installed and accessible via your system’s PATH or specify its location in the script.
 
 💻 Usage
 Run the Script:
 
+bash
+Copy code
 python main.py
 Input Prompts:
 
@@ -66,8 +75,9 @@ Choose the content type:
 Handle Age-Restricted Content:
 
 If you have a cookie file, provide the file path to access age-restricted videos.
-
 📋 Example
+bash
+Copy code
 Enter the YouTube channel username (e.g., @imhecate): @ImHEcate
 Select content type to download:
 1. Shorts
@@ -77,16 +87,13 @@ Select content type to download:
 Enter the number (1-4) corresponding to your choice: 1
 Do you have a cookies file for age-restricted videos? (y/n): n
 Downloading content (shorts) from: https://www.youtube.com/@ImHecate
-
 🖥️ Requirements
 Python 3.8+
 yt-dlp v2024.10.24+
 ffmpeg installed
-
 🛡️ Troubleshooting
 ffmpeg not installed error: Ensure that ffmpeg is properly installed and its path is correctly added to your system's PATH.
 Invalid YouTube channel: Ensure that you provide the correct channel username (starting with @).
-
 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
