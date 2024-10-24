@@ -89,6 +89,7 @@ yt-dlp v2024.10.24+
 ffmpeg installed
 
 🛡️ Troubleshooting
+
 ffmpeg not installed error: Ensure that ffmpeg is properly installed and its path is correctly added to your system's PATH.
 Invalid YouTube channel: Ensure that you provide the correct channel username (starting with @).
 
