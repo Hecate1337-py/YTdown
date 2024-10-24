@@ -57,8 +57,8 @@ Ensure ffmpeg is installed and accessible via your system’s PATH or specify it
 
 💻 Usage
 Run the Script:
-  ```bash
-  pip install yt-dlp
+
+python main.py
 
 Input Prompts:
 
@@ -71,8 +71,8 @@ Choose the content type:
 Handle Age-Restricted Content:
 
 If you have a cookie file, provide the file path to access age-restricted videos.
-📋 Example
 
+📋 Example
 Enter the YouTube channel username (e.g., @imhecate): @ImHEcate
 Select content type to download:
 1. Shorts
